@@ -1,0 +1,29 @@
+
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+}
+body{
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+h1{
+    text-align: center;
+    vertical-align: middle;
+}
+img{
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.botonInicio img{
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    
+}
