@@ -5,19 +5,37 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4CA1AF, #2C3E50);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+   
+
 
 
 }
+/* body h3{
+color:darkgray;
+text-align: center;
+vertical-align: middle;
+} */
 
-/* Para acomodar el texto del body */
+.navbar navbar {
+    text-align: center;
+}
+
+/* Para acomodar el texto del body en Seccion01*/
 .Sec01 {
-    background-color: lightgray;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     margin-left: 40px;
     margin-top: 40px;
     margin-right: 40px;
+    color: whitesmoke;
+    font-size: larger;
 }
-
+/* Fin de formato del texto en body */
 
 li {
     margin-left: 50px;
@@ -29,14 +47,9 @@ p {
 
 /* Finalizar acomodo del texto del body */
 
-/* .container-fluid{
-    margin-left: 65%;
-    display: flex;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-} */
-
+#dropdown-Menu ul{
+    color: red;
+}
 
 .piepagina {
 
