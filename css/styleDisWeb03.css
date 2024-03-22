@@ -1,87 +1,107 @@
 body {
 
-    background: #606c88;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3f4c6b, #606c88);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000428;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+
 /* Prueba de hoverable navsidebar */
 #mySidenav a {
-    position: absolute; /* Position them relative to the browser window */
-    left: -80px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
-    width: 100px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Increase font size */
-    color: white; /* White text color */
-    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-  }
-  
-  #mySidenav a:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
-  }
-  
-  /* The about link: 20px from the top with a green background */
-  #about {
-    top: 20px;
-    background-color: #04AA6D;
-  }
-  
-  #blog {
-    top: 80px;
-    background-color: #2196F3; /* Blue */
-  }
-  
-  #projects {
-    top: 140px;
-    background-color: #f44336; /* Red */
-  }
-  
-  #contact {
-    top: 200px;
-    background-color: #555 /* Light Black */
-  }
+  position: absolute;
+  /* Position them relative to the browser window */
+  left: -80px;
+  /* Position them outside of the screen */
+  transition: 0.3s;
+  /* Add transition on hover */
+  padding: 15px;
+  /* 15px padding */
+  width: 100px;
+  /* Set a specific width */
+  text-decoration: none;
+  /* Remove underline */
+  font-size: 20px;
+  /* Increase font size */
+  color: white;
+  /* White text color */
+  border-radius: 0 5px 5px 0;
+  /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0;
+  /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#blog {
+  top: 100px;
+  background-color: #2196F3;
+  /* Blue */
+}
+
+#projects {
+  top: 157px;
+  background-color: #36f446;
+  /* Red */
+}
+
+#contact {
+  top: 215px;
+  background-color: #555
+    /* Light Black */
+}
 
 /* Fin prueba de Hoverable navsidebar */
 
 
-.cuadro a{
-    color: darkgray;
-    
-    
-    
-}
-.contenedorForms{
-    margin-top: 3em;
-    text-align: center;
-}
-.Horario{
-    text-align: center;
-    vertical-align: middle;
-}
-h2{
-    color: aqua;
-    font-size: xx-large;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-.Hora{
-    color: crimson;
-    font-size: x-large;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.cuadro a {
+  color: darkgray;
+
+
+
 }
 
-.botonInicio img{
-    
-    width: 20%;
-    height: 20%;
-    
+.contenedorForms {
+  margin-top: 3em;
+  text-align: center;
 }
-.botonInicio{
-    text-align: center;
+
+.Horario {
+  text-align: center;
+  vertical-align: middle;
+}
+
+h2 {
+  color: rgb(25, 0, 255);
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Hora {
+  color: rgb(199, 32, 32);
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botonInicio img {
+
+  width: 20%;
+  height: 20%;
+
+}
+
+.botonInicio {
+  text-align: center;
 }
