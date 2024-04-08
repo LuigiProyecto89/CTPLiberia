@@ -23,7 +23,7 @@ body {
   /* Set a specific width */
   text-decoration: none;
   /* Remove underline */
-  font-size: 20px;
+  font-size: 14px;
   /* Increase font size */
   color: white;
   /* White text color */
@@ -97,11 +97,211 @@ h2 {
 
 .botonInicio img {
 
-  width: 20%;
-  height: 20%;
+  width: 10%;
+  height: 10%;
 
 }
 
 .botonInicio {
   text-align: center;
 }
+
+/* Prueba estilo botones */
+.botonesCategorias{
+  text-align: center;
+  
+
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button3:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button4:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button5 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button5:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button6 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button6:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button7 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+
+.button7:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button8 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button8:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button9 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button9:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button10 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button10:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button11 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button11:hover {
+  background-color: #008CBA;
+  color: white;
+  
+}
+
+.button12 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button12:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button13 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button13:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button14 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button14:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button15 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button15:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button16 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button16:hover {
+  background-color: #008CBA;
+  color: white;
+}
+

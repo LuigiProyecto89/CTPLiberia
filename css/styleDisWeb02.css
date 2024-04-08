@@ -18,10 +18,7 @@ h1 {
     vertical-align: middle;
 }
 
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 
 img {
 
@@ -32,15 +29,32 @@ img {
 
 }
 
-.botonInicio img {
-
-    width: 20%;
-    height: 20%;
-    margin: auto;
-
-
-}
-
-.botonInicio {
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .navbar a {
+    float: justify;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .navbar a:hover {
+    background: #077fb6;
+    color: black;
+  }
+  
+  
+  
