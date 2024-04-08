@@ -6,32 +6,142 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galería</title>
   <link rel="stylesheet" href="css/styleDisWeb04.css">
-  
+
 
 </head>
 
 <body>
-  <div class="slider">
-    <figure class="img">
-      <div class="imagenes">
-        <h1>Festival Marimba CTP Liberia</h1>
-        <img src="img/FestMarimbaCTP.jpg" alt="">
-      </div>
-      <div class="imagenes">
-        <h1>CTP Liberia</h1>
-        <img src="img/FraseCTPLiberia.png" alt="">
-      </div>
-      <div class="imagenes">
-        <h1>Oferta Cursos Técnicos</h1>
-        <img src="img/OfertaTecnicos.jpeg" alt="">
-      </div>
-      <div class="imagenes">
-        <h1>Personal Docente y Administrativo CTP Liberia</h1>
-        <img src="img/PersonalDocenteCTP.jpg" alt="">
-      </div>
-    </figure>
-            
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="index.html">Inicio</a>
+    <hr>
+    <a href="index05.html">Requisitos para Matrícula CTPL - Diurna</a>
+    <hr>
+    <a href="https://forms.gle/f9LQARd22TW7Umtw7">Matrícula CTP Liberia - Diurna</a>
+    <hr>
+    <a href="index02.html">Requisitos para Matrícula CTPL - Sección Nocturna</a>
+    <hr>
+
+    <nav>
+      <ul>
+        <li><a href="#">Matrícula CTP Liberia - Sección Nocturna</a>
+          <ul>
+            <li>
+              <a href="index03.html">Formularios Sección Nocturna
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+    <a href="index04.html">Galería</a>
+    <hr>
+    <a href="https://forms.gle/UN9uw26xw9d8bQxp9">Formulario Lista de espera 7° CTP Liberia</a>
+    <hr>
+    <a href="https://drive.google.com/drive/folders/1byBuZ1MiPxRQktTyX9NJL3fCI98I38_B?usp=sharing"
+      target="_blank">Descarga de
+      Documentos importantes
+    </a>
+
+
+
   </div>
+
+  <div id="main">
+
+
+    <button class="openbtn" onclick="openNav()">☰ Menú</button>
+
+  </div>
+
+
+  <header>
+
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+
+    <section class="Ssec01">
+      <h1>Actividades Institucionales</h1>
+      <div class="gallery">
+        <div class="img-wrapper">
+          <img class="myImg" src="img/CTPE.jpg" alt="Image 1">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 2">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 3">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="img/TCPX.jpg" alt="Image 4">
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="Ssec01">
+      <h1>Actividades Sección Diurna</h1>
+      <div class="gallery">
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 1">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 2">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 3">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 4">
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="Ssec01">
+      <h1>Actividades Sección Nocturna</h1>
+      <div class="gallery">
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 1">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="img/CTPEs.jpg" alt="Image 2">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="img/CTPG.jpg" alt="Image 3">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 4">
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="Ssec01">
+      <h1>Actividades en diversas Especialidaes</h1>
+      <div class="gallery">
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 1">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 2">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 3">
+        </div>
+        <div class="img-wrapper">
+          <img class="myImg" src="" alt="Image 4">
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <script src="Scritps.js"></script>
+
 </body>
 
 </html>
